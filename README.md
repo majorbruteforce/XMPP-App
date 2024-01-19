@@ -1,4 +1,4 @@
-## XMPP Fundementals
+## XMPP Fundamentals
 
 Map port 5222 of container running from image(used ejabberd/ecs here)
 
@@ -9,4 +9,4 @@ docker exec -it <container-name> bin/ejabberdctl register <username> <hostname> 
 
 ```
 
-Alternatively, you can do it manually inside the etc/ejabberd/ejabberd.yml file under acl>admin>user
+Alternatively, you can do it manually inside the etc/ejabberd/ejabberd.yml file under acl > admin > user
